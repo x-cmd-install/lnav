@@ -7,13 +7,13 @@ about:
   head: e43baf0
   archived: false
   latestVersion: v0.14.1-rc1
-  collectedAt: 2026-09-04T19:29:03Z
+  collectedAt: 2026-09-04T21:10:41Z
 timeline:
   created: 2009-09-14
   lastCommit: 2026-08-25
   lastRelease: 2026-05-10
 popularity:
-  star: 10633
+  star: 10634
   watcher: 82
   fork: 401
   release: 73
@@ -92,6 +92,164 @@ total:
   openIssue: 291
   commit: 4759
 ---
+path: /home/runner/.x-repo/github.com/tstack/lnav
+collectedAt: 2026-09-04T21:10:45Z
+loc:
+  Cpp:
+    code: 231680
+    comments: 8833
+    blanks: 17811
+    files: 252
+  CHeader:
+    code: 79094
+    comments: 13529
+    blanks: 12294
+    files: 113
+  CppHeader:
+    code: 73104
+    comments: 14408
+    blanks: 13185
+    files: 278
+  C:
+    code: 38439
+    comments: 5426
+    blanks: 3291
+    files: 93
+  Json:
+    code: 24878
+    comments: 0
+    blanks: 1
+    files: 157
+  ReStructuredText:
+    code: 8159
+    comments: 0
+    blanks: 4412
+    files: 23
+  Svg:
+    code: 7177
+    comments: 0
+    blanks: 0
+    files: 9
+  Sh:
+    code: 5220
+    comments: 351
+    blanks: 1617
+    files: 69
+  Automake:
+    code: 4013
+    comments: 5
+    blanks: 248
+    files: 26
+  Python:
+    code: 2537
+    comments: 327
+    blanks: 482
+    files: 17
+  M4:
+    code: 1863
+    comments: 1097
+    blanks: 416
+    files: 22
+  CMake:
+    code: 1754
+    comments: 212
+    blanks: 236
+    files: 24
+  Bash:
+    code: 1567
+    comments: 185
+    blanks: 114
+    files: 1
+  Rust:
+    code: 783
+    comments: 2
+    blanks: 121
+    files: 2
+  Autoconf:
+    code: 742
+    comments: 126
+    blanks: 207
+    files: 8
+  OCaml:
+    code: 659
+    comments: 24
+    blanks: 52
+    files: 2
+  JavaScript:
+    code: 337
+    comments: 28
+    blanks: 46
+    files: 6
+  Sql:
+    code: 319
+    comments: 14
+    blanks: 41
+    files: 7
+  Xml:
+    code: 264
+    comments: 3
+    blanks: 0
+    files: 2
+  Css:
+    code: 177
+    comments: 14
+    blanks: 41
+    files: 2
+  ForgeConfig:
+    code: 165
+    comments: 203
+    blanks: 175
+    files: 1
+  Html:
+    code: 162
+    comments: 0
+    blanks: 20
+    files: 4
+  Toml:
+    code: 111
+    comments: 14
+    blanks: 28
+    files: 5
+  Yaml:
+    code: 109
+    comments: 43
+    blanks: 12
+    files: 3
+  Sass:
+    code: 71
+    comments: 2
+    blanks: 15
+    files: 1
+  Dockerfile:
+    code: 44
+    comments: 1
+    blanks: 19
+    files: 2
+  PowerShell:
+    code: 31
+    comments: 9
+    blanks: 10
+    files: 1
+  Bitbake:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 4385
+    blanks: 800
+    files: 56
+  Text:
+    code: 0
+    comments: 4890
+    blanks: 930
+    files: 51
+total:
+  code: 483598
+  comments: 54162
+  blanks: 56644
+  files: 1238
 ---
 date: "2026-08-24"
 repo:
