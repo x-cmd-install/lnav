@@ -5,7 +5,7 @@ about:
   head: 2b8f73a
   archived: false
   latestVersion: "v0.14.1"
-  collectedAt: 2026-09-07T06:10:43Z
+  collectedAt: 2026-09-07T18:18:34Z
 timeline:
   created: 2009-09-14
   lastCommit: 2026-09-05
@@ -13,11 +13,11 @@ timeline:
 popularity:
   star: 10637
   watcher: 83
-  fork: 401
+  fork: 402
   release: 74
   contributor: 75
   pullRequest: 331
-  issue: 1272
+  issue: 1273
 language:
   C++: 9166505
   Shell: 279294
@@ -40,7 +40,7 @@ recent:
     mergedPR: 1
     openPR: 1
     closedIssue: 3
-    openIssue: 4
+    openIssue: 5
     commit: 4
   last60d:
     since: 2026-07-09
@@ -48,7 +48,7 @@ recent:
     mergedPR: 2
     openPR: 2
     closedIssue: 9
-    openIssue: 15
+    openIssue: 16
     commit: 7
   last90d:
     since: 2026-06-09
@@ -56,7 +56,7 @@ recent:
     mergedPR: 2
     openPR: 2
     closedIssue: 12
-    openIssue: 19
+    openIssue: 20
     commit: 19
   last180d:
     since: 2026-03-11
@@ -64,7 +64,7 @@ recent:
     mergedPR: 3
     openPR: 2
     closedIssue: 28
-    openIssue: 60
+    openIssue: 61
     commit: 178
   last360d:
     since: 2025-09-12
@@ -72,7 +72,7 @@ recent:
     mergedPR: 19
     openPR: 3
     closedIssue: 69
-    openIssue: 90
+    openIssue: 91
     commit: 482
   last720d:
     since: 2024-09-17
@@ -80,18 +80,18 @@ recent:
     mergedPR: 55
     openPR: 5
     closedIssue: 193
-    openIssue: 136
+    openIssue: 137
     commit: 1363
 total:
   release: 74
   mergedPR: 267
   openPR: 10
   closedIssue: 981
-  openIssue: 291
+  openIssue: 292
   commit: 4760
 ---
 path: /home/runner/.x-repo/github.com/tstack/lnav
-collectedAt: 2026-09-07T06:10:52Z
+collectedAt: 2026-09-07T18:18:42Z
 loc:
   Cpp:
     code: 231680
@@ -401,7 +401,7 @@ checks:
       - 'Warn: 0 commits out of 5 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:10:54+00:00
+  collectedAt: 2026-09-07T18:18:46+00:00
   platform:
     darwin/arm64:
       name:  lnav-0.14.1-aarch64-macos.zip
