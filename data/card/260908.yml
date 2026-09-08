@@ -5,13 +5,13 @@ about:
   head: 2b8f73a
   archived: false
   latestVersion: "v0.14.1"
-  collectedAt: 2026-09-08T03:18:27Z
+  collectedAt: 2026-09-08T06:09:51Z
 timeline:
   created: 2009-09-14
   lastCommit: 2026-09-05
   lastRelease: 2026-09-05
 popularity:
-  star: 10639
+  star: 10640
   watcher: 83
   fork: 402
   release: 74
@@ -91,7 +91,7 @@ total:
   commit: 4760
 ---
 path: /home/runner/.x-repo/github.com/tstack/lnav
-collectedAt: 2026-09-08T03:18:35Z
+collectedAt: 2026-09-08T06:09:59Z
 loc:
   Cpp:
     code: 231680
