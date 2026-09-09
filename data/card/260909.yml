@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.14.1"
   latestRelease: "v0.14.1"
   latestPrerelease: "v0.14.1-rc1"
-  collectedAt: 2026-09-09T06:19:24Z
+  collectedAt: 2026-09-09T20:46:59Z
 timeline:
   created: 2009-09-14
   lastCommit: 2026-09-08
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-05
   lastPrerelease: 2026-05-10
 popularity:
-  star: 10641
+  star: 10643
   watcher: 83
   fork: 401
   release: 74
@@ -67,35 +67,35 @@ recent:
     release: 6
     mergedPR: 4
     openPR: 1
-    closedIssue: 28
-    openIssue: 61
+    closedIssue: 29
+    openIssue: 60
     commit: 179
   last360d:
     since: 2025-09-14
     release: 9
     mergedPR: 20
     openPR: 2
-    closedIssue: 70
-    openIssue: 91
+    closedIssue: 71
+    openIssue: 90
     commit: 483
   last720d:
     since: 2024-09-19
     release: 29
     mergedPR: 56
     openPR: 4
-    closedIssue: 194
-    openIssue: 136
+    closedIssue: 195
+    openIssue: 135
     commit: 1365
 total:
   release: 74
   mergedPR: 268
   openPR: 9
-  closedIssue: 986
-  openIssue: 288
+  closedIssue: 987
+  openIssue: 287
   commit: 4762
 ---
 path: /home/runner/.x-repo/github.com/tstack/lnav
-collectedAt: 2026-09-09T06:19:33Z
+collectedAt: 2026-09-09T20:47:07Z
 loc:
   Cpp:
     code: 231687
