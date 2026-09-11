@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 16199552,
       "digest": "sha256:3b860ec5b2368e045a500c107006eee7077f9b66692dc17fcbf0b36a859f6631",
-      "download_count": 78,
+      "download_count": 79,
       "created_at": "2026-09-05T04:06:57Z",
       "updated_at": "2026-09-05T04:06:58Z",
       "browser_download_url": "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1-aarch64-macos.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 40195815,
       "digest": "sha256:e605ac855af193b5c7201e2fd94372febec931c5721b50fdf828b3e5af90c677",
-      "download_count": 55,
+      "download_count": 58,
       "created_at": "2026-09-05T04:12:38Z",
       "updated_at": "2026-09-05T04:12:41Z",
       "browser_download_url": "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1-linux-musl-arm64.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 42423829,
       "digest": "sha256:ec1750f0a6962eed6bb85ad4249457894f190e961277c56d69c47eecce9e705e",
-      "download_count": 605,
+      "download_count": 625,
       "created_at": "2026-09-05T04:14:37Z",
       "updated_at": "2026-09-05T04:14:39Z",
       "browser_download_url": "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1-linux-musl-x86_64.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 19680338,
       "digest": "sha256:6eacbc1c540837cfef3bc555e985027d91638023462ecc96616c14ef49f521a1",
-      "download_count": 161,
+      "download_count": 166,
       "created_at": "2026-09-05T04:25:41Z",
       "updated_at": "2026-09-05T04:25:42Z",
       "browser_download_url": "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1-windows-x86_64.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4818403,
       "digest": "sha256:870c896a6973e1e973007be1d66bba3aef23b2aa68411fb5cc85bb7dd21a7fb0",
-      "download_count": 268,
+      "download_count": 274,
       "created_at": "2026-09-05T03:55:53Z",
       "updated_at": "2026-09-05T03:55:54Z",
       "browser_download_url": "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1.tar.gz"
