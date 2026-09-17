@@ -26,11 +26,11 @@ Total: **483,468** lines of code across **893** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.7 / 10**
+Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 2/27 approved changesets -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/26 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,668 · **Forks**: 403 · **Open issues**: 1,276 · **Contributors**: 76
+- **Stars**: 10,670 · **Forks**: 403 · **Open issues**: 1,276 · **Contributors**: 76
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 1 | 2 | 0 | 2 | 6 | 5 |
-| last60d | 2026-07-17 | 1 | 2 | 1 | 5 | 14 | 5 |
-| 90d | 2026-06-17 | 1 | 3 | 1 | 13 | 20 | 20 |
-| last180d | 2026-03-19 | 6 | 4 | 1 | 31 | 60 | 150 |
-| 360d | 2025-09-20 | 7 | 20 | 2 | 73 | 89 | 466 |
-| last720d | 2024-09-25 | 29 | 56 | 4 | 197 | 133 | 1365 |
+| 30d | 2026-08-18 | 1 | 2 | 0 | 1 | 6 | 5 |
+| last60d | 2026-07-19 | 1 | 2 | 1 | 5 | 14 | 5 |
+| 90d | 2026-06-19 | 1 | 3 | 1 | 13 | 20 | 20 |
+| last180d | 2026-03-21 | 5 | 4 | 1 | 31 | 59 | 150 |
+| 360d | 2025-09-22 | 7 | 20 | 2 | 73 | 89 | 466 |
+| last720d | 2024-09-27 | 29 | 55 | 4 | 196 | 132 | 1364 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:41:40Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:47:51Z._
