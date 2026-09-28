@@ -14,11 +14,11 @@ x install lnav
 
 ## Code insight
 
-Total: **512,001** lines of code across **932** files in the top 5 languages.
+Total: **512,048** lines of code across **932** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 245,281 | 11,212 | 18,902 | 264 |
+| Cpp | 245,319 | 11,227 | 18,905 | 264 |
 | CHeader | 90,454 | 16,580 | 14,485 | 121 |
 | CppHeader | 75,290 | 16,514 | 13,613 | 284 |
 | C | 38,533 | 5,434 | 3,309 | 93 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,703 · **Forks**: 407 · **Open issues**: 1,277 · **Contributors**: 76
+- **Stars**: 10,706 · **Forks**: 407 · **Open issues**: 1,277 · **Contributors**: 76
 
 ## Totals (cumulative)
 
-- **Releases**: 74 · **Merged PRs**: 268 · **Open PRs**: 10 · **Closed issues**: 993 · **Open issues**: 284 · **Commits**: 4861
+- **Releases**: 74 · **Merged PRs**: 268 · **Open PRs**: 10 · **Closed issues**: 993 · **Open issues**: 284 · **Commits**: 4862
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 1 | 1 | 1 | 0 | 7 | 36 |
-| last60d | 2026-07-29 | 1 | 2 | 1 | 4 | 10 | 48 |
-| 90d | 2026-06-29 | 1 | 3 | 2 | 12 | 20 | 65 |
-| last180d | 2026-03-31 | 5 | 4 | 2 | 29 | 59 | 173 |
-| 360d | 2025-10-02 | 7 | 18 | 3 | 71 | 90 | 521 |
-| last720d | 2024-10-07 | 29 | 55 | 5 | 193 | 133 | 1456 |
+| 30d | 2026-08-29 | 1 | 1 | 1 | 0 | 7 | 37 |
+| last60d | 2026-07-30 | 1 | 2 | 1 | 4 | 10 | 49 |
+| 90d | 2026-06-30 | 1 | 3 | 2 | 10 | 19 | 66 |
+| last180d | 2026-04-01 | 5 | 4 | 2 | 28 | 59 | 174 |
+| 360d | 2025-10-03 | 7 | 18 | 3 | 70 | 90 | 522 |
+| last720d | 2024-10-08 | 29 | 55 | 5 | 193 | 133 | 1456 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:34:47Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:46:34Z._
