@@ -26,13 +26,13 @@ x install lnav
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.8 / 10**
+总评分: **3.7 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 3/26 approved changesets -- score normalized to 1
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **SAST** (0/10) — no SAST tool detected
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install lnav
 
 ## 流行度
 
-- **Star**: 10,713 · **Fork**: 407 · **开放 issue**: 1,277 · **贡献者**: 76
+- **Star**: 10,716 · **Fork**: 407 · **开放 issue**: 1,277 · **贡献者**: 76
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install lnav
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 2 | 1 | 1 | 0 | 7 | 39 |
-| last60d | 2026-07-31 | 2 | 2 | 1 | 4 | 10 | 51 |
-| 90d | 2026-07-01 | 2 | 3 | 2 | 10 | 19 | 68 |
-| last180d | 2026-04-02 | 6 | 4 | 2 | 28 | 58 | 176 |
-| 360d | 2025-10-04 | 8 | 18 | 3 | 69 | 90 | 524 |
-| last720d | 2024-10-09 | 30 | 54 | 5 | 192 | 133 | 1458 |
+| 30d | 2026-08-31 | 2 | 0 | 1 | 0 | 6 | 0 |
+| last60d | 2026-08-01 | 2 | 2 | 1 | 4 | 10 | 0 |
+| 90d | 2026-07-02 | 2 | 3 | 2 | 10 | 19 | 0 |
+| last180d | 2026-04-03 | 6 | 4 | 2 | 28 | 58 | 0 |
+| 360d | 2025-10-05 | 8 | 18 | 3 | 69 | 90 | 0 |
+| last720d | 2024-10-10 | 30 | 54 | 5 | 192 | 133 | 1455 |
 
 ## Release 资产
 
@@ -86,4 +86,4 @@ lnav 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260929.yml` · 2026-09-29T07:04:38Z._
+_数据快照: `data/card/260930.yml` · 2026-09-30T07:01:30Z._
