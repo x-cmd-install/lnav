@@ -14,13 +14,13 @@ x install lnav
 
 ## Code insight
 
-Total: **516,120** lines of code across **940** files in the top 5 languages.
+Total: **516,190** lines of code across **940** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 246,879 | 11,460 | 19,139 | 268 |
-| CHeader | 92,463 | 16,686 | 14,947 | 122 |
-| CppHeader | 75,470 | 16,661 | 13,667 | 284 |
+| Cpp | 246,949 | 11,460 | 19,143 | 268 |
+| CHeader | 92,448 | 16,702 | 14,949 | 122 |
+| CppHeader | 75,485 | 16,661 | 13,671 | 284 |
 | C | 38,543 | 5,434 | 3,310 | 93 |
 | Json | 25,898 | 0 | 1 | 173 |
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.15.0-beta1` (2026-09-05)
-- **Last commit**: 2026-10-02
+- **Last commit**: 2026-10-03
 - **Assets in release**: 7
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 268 · **Open PRs**: 10 · **Closed issues**: 994 · **Open issues**: 283 · **Commits**: 4871
+- **Releases**: 75 · **Merged PRs**: 268 · **Open PRs**: 10 · **Closed issues**: 994 · **Open issues**: 283 · **Commits**: 4872
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 2 | 0 | 1 | 0 | 6 | 46 |
-| last60d | 2026-08-04 | 2 | 2 | 1 | 3 | 9 | 58 |
-| 90d | 2026-07-05 | 2 | 3 | 2 | 10 | 19 | 75 |
-| last180d | 2026-04-06 | 6 | 4 | 2 | 28 | 57 | 183 |
-| 360d | 2025-10-08 | 8 | 18 | 3 | 67 | 89 | 531 |
-| last720d | 2024-10-13 | 30 | 54 | 5 | 192 | 133 | 1462 |
+| 30d | 2026-09-04 | 2 | 0 | 1 | 0 | 5 | 38 |
+| last60d | 2026-08-05 | 2 | 2 | 1 | 3 | 9 | 59 |
+| 90d | 2026-07-06 | 2 | 3 | 2 | 10 | 19 | 70 |
+| last180d | 2026-04-07 | 6 | 4 | 2 | 28 | 57 | 157 |
+| 360d | 2025-10-09 | 8 | 18 | 3 | 66 | 88 | 518 |
+| last720d | 2024-10-14 | 30 | 54 | 5 | 192 | 133 | 1463 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:38:37Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T07:02:14Z._
