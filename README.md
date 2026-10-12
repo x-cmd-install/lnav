@@ -14,15 +14,15 @@ x install lnav
 
 ## Code insight
 
-Total: **520,930** lines of code across **949** files in the top 5 languages.
+Total: **523,226** lines of code across **954** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 250,787 | 11,742 | 19,593 | 272 |
+| Cpp | 252,701 | 12,032 | 19,839 | 275 |
 | CHeader | 92,448 | 16,702 | 14,949 | 122 |
-| CppHeader | 75,694 | 16,992 | 13,750 | 288 |
+| CppHeader | 75,877 | 17,186 | 13,803 | 290 |
 | C | 38,543 | 5,434 | 3,310 | 93 |
-| Json | 25,966 | 0 | 1 | 174 |
+| Json | 25,970 | 0 | 1 | 174 |
 
 ## OpenSSF Scorecard
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.15.0-beta1` (2026-09-05)
-- **Last commit**: 2026-10-06
+- **Last commit**: 2026-10-11
 - **Assets in release**: 7
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 268 · **Open PRs**: 10 · **Closed issues**: 994 · **Open issues**: 284 · **Commits**: 4878
+- **Releases**: 75 · **Merged PRs**: 268 · **Open PRs**: 10 · **Closed issues**: 994 · **Open issues**: 284 · **Commits**: 4882
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 1 | 0 | 1 | 0 | 4 | 44 |
-| last60d | 2026-08-12 | 2 | 2 | 1 | 3 | 9 | 65 |
-| 90d | 2026-07-13 | 2 | 3 | 2 | 7 | 16 | 76 |
-| last180d | 2026-04-14 | 3 | 4 | 2 | 23 | 51 | 163 |
-| 360d | 2025-10-16 | 8 | 18 | 3 | 63 | 88 | 524 |
-| last720d | 2024-10-21 | 30 | 54 | 5 | 192 | 134 | 1467 |
+| 30d | 2026-09-12 | 1 | 0 | 1 | 0 | 3 | 40 |
+| last60d | 2026-08-13 | 2 | 2 | 1 | 2 | 9 | 69 |
+| 90d | 2026-07-14 | 2 | 3 | 2 | 7 | 16 | 74 |
+| last180d | 2026-04-15 | 3 | 4 | 2 | 23 | 49 | 152 |
+| 360d | 2025-10-17 | 8 | 18 | 3 | 61 | 87 | 503 |
+| last720d | 2024-10-22 | 30 | 54 | 5 | 192 | 134 | 1471 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:54:13Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T07:29:57Z._
