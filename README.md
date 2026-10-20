@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,743 · **Forks**: 413 · **Open issues**: 1,278 · **Contributors**: 77
+- **Stars**: 10,744 · **Forks**: 414 · **Open issues**: 1,278 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 270 · **Open PRs**: 10 · **Closed issues**: 994 · **Open issues**: 284 · **Commits**: 4891
+- **Releases**: 75 · **Merged PRs**: 270 · **Open PRs**: 11 · **Closed issues**: 994 · **Open issues**: 284 · **Commits**: 4891
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 1 | 1 | 1 | 0 | 2 | 30 |
-| last60d | 2026-08-20 | 2 | 4 | 1 | 1 | 8 | 73 |
-| 90d | 2026-07-21 | 2 | 4 | 2 | 5 | 13 | 80 |
-| last180d | 2026-04-22 | 3 | 5 | 2 | 18 | 46 | 133 |
-| 360d | 2025-10-24 | 8 | 20 | 3 | 58 | 85 | 497 |
-| last720d | 2024-10-29 | 30 | 52 | 5 | 188 | 134 | 1463 |
+| 30d | 2026-09-20 | 1 | 1 | 2 | 0 | 2 | 30 |
+| last60d | 2026-08-21 | 2 | 4 | 2 | 1 | 8 | 73 |
+| 90d | 2026-07-22 | 2 | 4 | 3 | 5 | 12 | 80 |
+| last180d | 2026-04-23 | 3 | 5 | 3 | 18 | 46 | 133 |
+| 360d | 2025-10-25 | 8 | 20 | 4 | 58 | 85 | 497 |
+| last720d | 2024-10-30 | 30 | 50 | 6 | 188 | 134 | 1461 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:51:52Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T06:12:08Z._
