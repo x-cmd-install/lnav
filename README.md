@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,755 · **Forks**: 414 · **Open issues**: 1,280 · **Contributors**: 77
+- **Stars**: 10,757 · **Forks**: 414 · **Open issues**: 1,280 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 1 | 1 | 2 | 0 | 4 | 30 |
-| last60d | 2026-08-24 | 2 | 3 | 2 | 0 | 10 | 73 |
-| 90d | 2026-07-25 | 2 | 4 | 2 | 5 | 14 | 80 |
-| last180d | 2026-04-26 | 3 | 5 | 3 | 17 | 47 | 133 |
-| 360d | 2025-10-28 | 8 | 19 | 4 | 58 | 86 | 497 |
-| last720d | 2024-11-02 | 30 | 50 | 6 | 188 | 136 | 1438 |
+| 30d | 2026-09-24 | 1 | 1 | 2 | 0 | 4 | 30 |
+| last60d | 2026-08-25 | 2 | 3 | 2 | 0 | 10 | 73 |
+| 90d | 2026-07-26 | 2 | 4 | 2 | 5 | 14 | 80 |
+| last180d | 2026-04-27 | 3 | 5 | 3 | 15 | 47 | 133 |
+| 360d | 2025-10-29 | 8 | 19 | 4 | 58 | 86 | 497 |
+| last720d | 2024-11-03 | 30 | 50 | 6 | 188 | 136 | 1438 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T06:04:32Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:50:41Z._
