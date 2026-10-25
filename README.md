@@ -14,15 +14,15 @@ x install lnav
 
 ## Code insight
 
-Total: **524,009** lines of code across **954** files in the top 5 languages.
+Total: **526,189** lines of code across **956** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 253,350 | 12,082 | 19,885 | 275 |
+| Cpp | 254,880 | 12,370 | 20,111 | 275 |
 | CHeader | 92,445 | 16,702 | 14,949 | 122 |
-| CppHeader | 75,890 | 17,194 | 13,805 | 290 |
+| CppHeader | 76,207 | 17,358 | 13,851 | 290 |
 | C | 38,543 | 5,434 | 3,310 | 93 |
-| Json | 25,970 | 0 | 1 | 174 |
+| Json | 26,039 | 0 | 1 | 176 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.15.0-beta1` (2026-09-05)
-- **Last commit**: 2026-10-18
+- **Last commit**: 2026-10-25
 - **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 10,757 · **Forks**: 414 · **Open issues**: 1,280 · **Contributors**: 77
+- **Stars**: 10,760 · **Forks**: 414 · **Open issues**: 1,280 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 270 · **Open PRs**: 11 · **Closed issues**: 994 · **Open issues**: 286 · **Commits**: 4891
+- **Releases**: 75 · **Merged PRs**: 271 · **Open PRs**: 11 · **Closed issues**: 994 · **Open issues**: 286 · **Commits**: 4898
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 1 | 1 | 2 | 0 | 4 | 30 |
-| last60d | 2026-08-25 | 2 | 3 | 2 | 0 | 10 | 73 |
-| 90d | 2026-07-26 | 2 | 4 | 2 | 5 | 14 | 80 |
-| last180d | 2026-04-27 | 3 | 5 | 3 | 15 | 47 | 133 |
-| 360d | 2025-10-29 | 8 | 19 | 4 | 58 | 86 | 497 |
-| last720d | 2024-11-03 | 30 | 50 | 6 | 188 | 136 | 1438 |
+| 30d | 2026-09-25 | 1 | 2 | 2 | 0 | 4 | 26 |
+| last60d | 2026-08-26 | 2 | 4 | 2 | 0 | 10 | 75 |
+| 90d | 2026-07-27 | 2 | 5 | 2 | 5 | 13 | 86 |
+| last180d | 2026-04-28 | 3 | 6 | 3 | 15 | 46 | 120 |
+| 360d | 2025-10-30 | 8 | 20 | 4 | 57 | 86 | 476 |
+| last720d | 2024-11-04 | 30 | 51 | 6 | 188 | 136 | 1445 |
 
 ## Release assets
 
@@ -79,7 +79,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **107** distros on [repology.org](https://repology.org/project/lnav). **21** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
+Reported by **107** distros on [repology.org](https://repology.org/project/lnav). **22** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,7 +89,7 @@ Reported by **107** distros on [repology.org](https://repology.org/project/lnav)
 | Ubuntu 26.04 LTS | `0.13.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.11.2` | ⚠️ outdated |
 | Arch | `0.14.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `0.14.1` | ✅ latest |
 | Fedora rawhide | `0.14.1` | ✅ latest |
 | Nix unstable | `0.14.1` | ✅ latest |
 | Void | `0.14.1` | ✅ latest |
@@ -105,4 +105,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:50:41Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T05:54:04Z._
