@@ -1,3 +1,35 @@
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: lnav
+  binname: lnav
+  visiblename: lnav
+  version: 0.14.1
+  origversion: 0.14.1-1
+  status: newest
+  summary: A curses-based tool for viewing and analyzing log files
+  licenses:
+    - custom:BSD
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: lnav
+  binname: lnav
+  visiblename: lnav
+  version: 0.14.1
+  origversion: 0.14.1-1
+  status: newest
+  summary: A curses-based tool for viewing and analyzing log files
+  licenses:
+    - custom:BSD
+- repo: slackbuilds
+  srcname: system/lnav
+  visiblename: system/lnav
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - kuban.ma@gmail.com
+  categories:
+    - system
 - repo: nix_stable_24_05
   srcname: lnav
   visiblename: lnav
@@ -20,43 +52,6 @@
     - dochang@gmail.com
   licenses:
     - BSD-2-Clause
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.13.2
-  origversion: 0.13.2-2
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-  categories:
-    - misc
-- repo: nix_stable_25_05
-  srcname: lnav
-  visiblename: lnav
-  version: 0.12.4
-  origversion: null
-  status: outdated
-  summary: Logfile Navigator
-  maintainers:
-    - dochang@gmail.com
-    - symphorien_nixpkgs@xlumurb.eu
-    - pcasaretto@gmail.com
-  licenses:
-    - BSD-2-Clause
-- repo: deepin_unstable
-  subrepo: main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.8.4
-  origversion: 0.8.4-5
-  status: outdated
-  maintainers:
-    - carnil@debian.org
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: lnav
@@ -83,7 +78,7 @@
     - carnil@debian.org
   categories:
     - misc
-- repo: manjaro_unstable
+- repo: manjaro_testing
   subrepo: extra
   srcname: lnav
   binname: lnav
@@ -97,12 +92,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: lnav
-  binname: lnav-doc
-  visiblename: lnav-doc
+  binname: lnav
+  visiblename: lnav
   version: 0.11.1
   origversion: 0.11.1-r0
   status: outdated
-  summary: advanced log file navigator and viewer (documentation)
+  summary: advanced log file navigator and viewer
   maintainers:
     - heiko.bernloehr@freeit.de
   licenses:
@@ -110,12 +105,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: lnav
-  binname: lnav
-  visiblename: lnav
+  binname: lnav-doc
+  visiblename: lnav-doc
   version: 0.11.1
   origversion: 0.11.1-r0
   status: outdated
-  summary: advanced log file navigator and viewer
+  summary: advanced log file navigator and viewer (documentation)
   maintainers:
     - heiko.bernloehr@freeit.de
   licenses:
@@ -463,12 +458,36 @@
     - lnav
   visiblename: lnav
   version: 0.13.2
-  origversion: 0.13.2-1
+  origversion: 0.13.2-2
   status: outdated
   maintainers:
     - carnil@debian.org
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.13.2
+  origversion: 0.13.2-2
+  status: outdated
+  maintainers:
+    - carnil@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.8.4
+  origversion: 0.8.4-5
+  status: outdated
+  maintainers:
+    - carnil@debian.org
 - repo: epel_7
   srcname: lnav
   visiblename: lnav
@@ -627,6 +646,20 @@
   visiblename: lnav
   version: 0.13.2
   origversion: 0.13.2-2.fc44
+  status: outdated
+  summary: Curses-based tool for viewing and analyzing log files
+  licenses:
+    - LicenseRef-Callaway-BSD
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.14.0
+  origversion: 0.14.0-3.fc45
   status: outdated
   summary: Curses-based tool for viewing and analyzing log files
   licenses:
@@ -797,28 +830,19 @@
     - BSD
   categories:
     - Monitoring
-- repo: manjaro_stable
-  subrepo: extra
+- repo: nix_stable_25_05
   srcname: lnav
-  binname: lnav
   visiblename: lnav
-  version: 0.14.1
-  origversion: 0.14.1-1
-  status: newest
-  summary: A curses-based tool for viewing and analyzing log files
+  version: 0.12.4
+  origversion: null
+  status: outdated
+  summary: Logfile Navigator
+  maintainers:
+    - dochang@gmail.com
+    - symphorien_nixpkgs@xlumurb.eu
+    - pcasaretto@gmail.com
   licenses:
-    - custom:BSD
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: lnav
-  binname: lnav
-  visiblename: lnav
-  version: 0.14.1
-  origversion: 0.14.1-1
-  status: newest
-  summary: A curses-based tool for viewing and analyzing log files
-  licenses:
-    - custom:BSD
+    - BSD-2-Clause
 - repo: nix_stable_25_11
   srcname: lnav
   visiblename: lnav
@@ -1149,7 +1173,7 @@
     - lnav
   visiblename: lnav
   version: 0.13.2
-  origversion: 0.13.2-1
+  origversion: 0.13.2-2
   status: outdated
   maintainers:
     - carnil@debian.org
@@ -1198,16 +1222,6 @@
   status: newest
   licenses:
     - BSD-2-Clause
-- repo: slackbuilds
-  srcname: system/lnav
-  visiblename: system/lnav
-  version: 0.12.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - kuban.ma@gmail.com
-  categories:
-    - system
 - repo: termux
   srcname: lnav
   binname: lnav
