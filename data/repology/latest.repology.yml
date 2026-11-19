@@ -1,57 +1,27 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: raspbian_testing
+  subrepo: main
   srcname: lnav
-  binname: lnav
+  binnames:
+    - lnav
   visiblename: lnav
-  version: 0.14.1
-  origversion: 0.14.1-1
-  status: newest
-  summary: A curses-based tool for viewing and analyzing log files
-  licenses:
-    - custom:BSD
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: lnav
-  binname: lnav
-  visiblename: lnav
-  version: 0.14.1
-  origversion: 0.14.1-1
-  status: newest
-  summary: A curses-based tool for viewing and analyzing log files
-  licenses:
-    - custom:BSD
-- repo: slackbuilds
-  srcname: system/lnav
-  visiblename: system/lnav
-  version: 0.12.0
-  origversion: null
+  version: 0.13.2
+  origversion: 0.13.2-2
   status: outdated
   maintainers:
-    - kuban.ma@gmail.com
+    - carnil@debian.org
   categories:
-    - system
-- repo: nix_stable_24_05
+    - misc
+- repo: deepin_unstable
+  subrepo: main
   srcname: lnav
+  binnames:
+    - lnav
   visiblename: lnav
-  version: 0.11.2
-  origversion: null
+  version: 0.8.4
+  origversion: 0.8.4-5
   status: outdated
-  summary: The Logfile Navigator
   maintainers:
-    - dochang@gmail.com
-  licenses:
-    - BSD-2-Clause
-- repo: nix_stable_24_11
-  srcname: lnav
-  visiblename: lnav
-  version: 0.12.3
-  origversion: null
-  status: outdated
-  summary: Logfile Navigator
-  maintainers:
-    - dochang@gmail.com
-  licenses:
-    - BSD-2-Clause
+    - carnil@debian.org
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: lnav
@@ -78,7 +48,7 @@
     - carnil@debian.org
   categories:
     - misc
-- repo: manjaro_testing
+- repo: manjaro_unstable
   subrepo: extra
   srcname: lnav
   binname: lnav
@@ -89,6 +59,78 @@
   summary: A curses-based tool for viewing and analyzing log files
   licenses:
     - custom:BSD
+- repo: nix_stable_24_05
+  srcname: lnav
+  visiblename: lnav
+  version: 0.11.2
+  origversion: null
+  status: outdated
+  summary: The Logfile Navigator
+  maintainers:
+    - dochang@gmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_24_11
+  srcname: lnav
+  visiblename: lnav
+  version: 0.12.3
+  origversion: null
+  status: outdated
+  summary: Logfile Navigator
+  maintainers:
+    - dochang@gmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.12.4
+  origversion: 0.12.4-1+deb13u1
+  status: outdated
+  maintainers:
+    - carnil@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.13.2
+  origversion: 0.13.2-2
+  status: outdated
+  maintainers:
+    - carnil@debian.org
+  categories:
+    - misc
+- repo: epel_7
+  srcname: lnav
+  visiblename: lnav
+  version: 0.7.3
+  origversion: 0.7.3-1.el7
+  status: outdated
+  summary: Curses-based tool for viewing and analyzing log files
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.13.2
+  origversion: 0.13.2-2
+  status: outdated
+  maintainers:
+    - carnil@debian.org
+  categories:
+    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: lnav
@@ -438,67 +480,6 @@
     - carnil@debian.org
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.12.4
-  origversion: 0.12.4-1+deb13u1
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.13.2
-  origversion: 0.13.2-2
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.13.2
-  origversion: 0.13.2-2
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.8.4
-  origversion: 0.8.4-5
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-- repo: epel_7
-  srcname: lnav
-  visiblename: lnav
-  version: 0.7.3
-  origversion: 0.7.3-1.el7
-  status: outdated
-  summary: Curses-based tool for viewing and analyzing log files
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
 - repo: epel_8
   srcname: lnav
   visiblename: lnav
@@ -726,7 +707,7 @@
     - lnav
   visiblename: lnav
   version: 0.13.2
-  origversion: 0.13.2-1
+  origversion: 0.13.2-2
   status: outdated
   maintainers:
     - carnil@debian.org
@@ -786,22 +767,6 @@
     - BSD
   categories:
     - sysutils
-- repo: mageia_9
-  subrepo: core/release
-  srcname: lnav
-  binnames:
-    - lnav
-    - lnav-debuginfo
-    - lnav-debugsource
-  visiblename: lnav
-  version: 0.11.1
-  origversion: 0.11.1-1.mga9
-  status: outdated
-  summary: Curses-based tool for viewing and analyzing log files
-  licenses:
-    - BSD
-  categories:
-    - Monitoring
 - repo: mageia_10
   subrepo: core/release
   srcname: lnav
@@ -816,6 +781,19 @@
     - BSD
   categories:
     - Monitoring
+- repo: raspbian_stable
+  subrepo: main
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.12.4
+  origversion: 0.12.4-1+deb13u1
+  status: outdated
+  maintainers:
+    - carnil@debian.org
+  categories:
+    - misc
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: lnav
@@ -830,6 +808,28 @@
     - BSD
   categories:
     - Monitoring
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: lnav
+  binname: lnav
+  visiblename: lnav
+  version: 0.14.1
+  origversion: 0.14.1-1
+  status: newest
+  summary: A curses-based tool for viewing and analyzing log files
+  licenses:
+    - custom:BSD
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: lnav
+  binname: lnav
+  visiblename: lnav
+  version: 0.14.1
+  origversion: 0.14.1-1
+  status: newest
+  summary: A curses-based tool for viewing and analyzing log files
+  licenses:
+    - custom:BSD
 - repo: nix_stable_25_05
   srcname: lnav
   visiblename: lnav
@@ -1153,32 +1153,6 @@
     - carnil@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.12.4
-  origversion: 0.12.4-1+deb13u1
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.13.2
-  origversion: 0.13.2-2
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-  categories:
-    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: lnav
@@ -1222,6 +1196,16 @@
   status: newest
   licenses:
     - BSD-2-Clause
+- repo: slackbuilds
+  srcname: system/lnav
+  visiblename: system/lnav
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - kuban.ma@gmail.com
+  categories:
+    - system
 - repo: termux
   srcname: lnav
   binname: lnav
