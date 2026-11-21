@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,809 · **Forks**: 419 · **Open issues**: 1,283 · **Contributors**: 77
+- **Stars**: 10,813 · **Forks**: 419 · **Open issues**: 1,283 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 4 | 3 | 0 | 4 | 60 |
-| last60d | 2026-09-21 | 1 | 5 | 5 | 0 | 7 | 95 |
-| 90d | 2026-08-22 | 2 | 8 | 5 | 2 | 12 | 134 |
-| last180d | 2026-05-24 | 2 | 9 | 6 | 15 | 33 | 157 |
-| 360d | 2025-11-25 | 8 | 22 | 7 | 47 | 83 | 458 |
-| last720d | 2024-11-30 | 28 | 53 | 9 | 178 | 138 | 1446 |
+| 30d | 2026-10-22 | 0 | 4 | 3 | 0 | 3 | 60 |
+| last60d | 2026-09-22 | 1 | 5 | 5 | 0 | 7 | 95 |
+| 90d | 2026-08-23 | 2 | 7 | 5 | 1 | 12 | 134 |
+| last180d | 2026-05-25 | 2 | 9 | 6 | 15 | 33 | 157 |
+| 360d | 2025-11-26 | 8 | 22 | 7 | 47 | 83 | 458 |
+| last720d | 2024-12-01 | 28 | 53 | 9 | 177 | 138 | 1446 |
 
 ## Release assets
 
@@ -79,7 +79,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **108** distros on [repology.org](https://repology.org/project/lnav). **22** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
+Reported by **107** distros on [repology.org](https://repology.org/project/lnav). **22** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:12:56Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:48:55Z._
