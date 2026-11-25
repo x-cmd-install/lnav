@@ -14,15 +14,15 @@ x install lnav
 
 ## 代码洞察
 
-合计: **550,666** 行代码（覆盖前 5 种语言、共 **1023** 个文件）。
+合计: **550,839** 行代码（覆盖前 5 种语言、共 **1023** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 265,714 | 13,700 | 21,173 | 282 |
+| Cpp | 265,803 | 13,703 | 21,182 | 282 |
 | CHeader | 93,653 | 17,120 | 15,409 | 123 |
-| CppHeader | 84,821 | 21,258 | 15,498 | 329 |
+| CppHeader | 84,891 | 21,260 | 15,504 | 329 |
 | C | 38,588 | 5,440 | 3,320 | 94 |
-| Json | 27,539 | 0 | 1 | 195 |
+| Json | 27,553 | 0 | 1 | 195 |
 
 ## OpenSSF Scorecard 评分
 
@@ -43,27 +43,27 @@ x install lnav
 ## 发布
 
 - **最新版本**: `v0.15.0-beta1` (2026-09-05)
-- **最近提交**: 2026-11-23
+- **最近提交**: 2026-11-25
 - **Release 含资产**: 7 个
 
 ## 流行度
 
-- **Star**: 10,818 · **Fork**: 420 · **开放 issue**: 1,283 · **贡献者**: 79
+- **Star**: 10,821 · **Fork**: 419 · **开放 issue**: 1,283 · **贡献者**: 79
 
 ## 累计统计
 
-- **发布数**: 75 · **已合并 PR**: 276 · **开放 PR**: 11 · **已关闭 issue**: 998 · **开放 issue**: 285 · **提交数**: 4969
+- **发布数**: 75 · **已合并 PR**: 276 · **开放 PR**: 11 · **已关闭 issue**: 998 · **开放 issue**: 285 · **提交数**: 4970
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 5 | 0 | 0 | 3 | 49 |
-| last60d | 2026-09-25 | 1 | 7 | 2 | 2 | 5 | 96 |
-| 90d | 2026-08-26 | 2 | 9 | 2 | 3 | 10 | 142 |
-| last180d | 2026-05-28 | 2 | 11 | 3 | 17 | 31 | 168 |
-| 360d | 2025-11-29 | 8 | 24 | 4 | 48 | 78 | 455 |
-| last720d | 2024-12-04 | 28 | 55 | 6 | 177 | 136 | 1460 |
+| 30d | 2026-10-26 | 0 | 2 | 0 | 0 | 3 | 50 |
+| last60d | 2026-09-26 | 1 | 7 | 2 | 2 | 4 | 97 |
+| 90d | 2026-08-27 | 2 | 9 | 2 | 3 | 10 | 143 |
+| last180d | 2026-05-29 | 2 | 11 | 3 | 17 | 31 | 169 |
+| 360d | 2025-11-30 | 8 | 24 | 4 | 48 | 77 | 456 |
+| last720d | 2024-12-05 | 28 | 55 | 6 | 177 | 134 | 1461 |
 
 ## Release 资产
 
@@ -77,25 +77,6 @@ x install lnav
 | [lnav-0.14.1.tar.bz2](https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1.tar.bz2) | 3.8 MiB | `other` |
 | [lnav-0.14.1.tar.gz](https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1.tar.gz) | 4.6 MiB | `native/unknown` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/lnav) 上共有 **107** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**81** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.13.2` | ⚠️ outdated |
-| Debian 14 | `0.13.2` | ⚠️ outdated |
-| Debian 13 | `0.12.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.13.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.11.2` | ⚠️ outdated |
-| Arch | `0.14.1` | ✅ latest |
-| Homebrew | `0.14.1` | ✅ latest |
-| Fedora rawhide | `0.14.1` | ✅ latest |
-| Nix unstable | `0.14.1` | ✅ latest |
-| Void | `0.14.1` | ✅ latest |
-| Alpine edge | `0.14.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.14.1` | ✅ latest |
-
 ## 改进这些数据
 
 lnav 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `lnav` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -105,4 +86,4 @@ lnav 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:55:07Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:45:41Z._
