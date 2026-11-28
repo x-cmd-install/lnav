@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,829 · **Forks**: 419 · **Open issues**: 1,283 · **Contributors**: 79
+- **Stars**: 10,831 · **Forks**: 419 · **Open issues**: 1,283 · **Contributors**: 79
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 276 · **Open PRs**: 11 · **Closed issues**: 998 · **Open issues**: 285 · **Commits**: 4970
+- **Releases**: 75 · **Merged PRs**: 276 · **Open PRs**: 12 · **Closed issues**: 998 · **Open issues**: 285 · **Commits**: 4970
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 1 | 0 | 0 | 3 | 50 |
-| last60d | 2026-09-28 | 1 | 7 | 2 | 2 | 4 | 97 |
-| 90d | 2026-08-29 | 2 | 9 | 2 | 3 | 10 | 143 |
-| last180d | 2026-05-31 | 2 | 11 | 3 | 17 | 30 | 169 |
-| 360d | 2025-12-02 | 8 | 24 | 4 | 47 | 76 | 456 |
-| last720d | 2024-12-07 | 28 | 55 | 6 | 177 | 134 | 1461 |
+| 30d | 2026-10-29 | 0 | 1 | 1 | 0 | 2 | 50 |
+| last60d | 2026-09-29 | 0 | 7 | 3 | 2 | 4 | 97 |
+| 90d | 2026-08-30 | 2 | 9 | 3 | 3 | 10 | 143 |
+| last180d | 2026-06-01 | 2 | 11 | 4 | 17 | 30 | 169 |
+| 360d | 2025-12-03 | 8 | 24 | 5 | 47 | 76 | 456 |
+| last720d | 2024-12-08 | 28 | 55 | 7 | 177 | 134 | 1461 |
 
 ## Release assets
 
@@ -77,6 +77,25 @@ Lowest-scoring checks:
 | [lnav-0.14.1.tar.bz2](https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1.tar.bz2) | 3.8 MiB | `other` |
 | [lnav-0.14.1.tar.gz](https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1.tar.gz) | 4.6 MiB | `native/unknown` |
 
+## Distribution status
+
+Reported by **106** distros on [repology.org](https://repology.org/project/lnav). **22** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.13.2` | ⚠️ outdated |
+| Debian 14 | `0.13.2` | ⚠️ outdated |
+| Debian 13 | `0.12.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.13.2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.11.2` | ⚠️ outdated |
+| Arch | `0.14.1` | ✅ latest |
+| Homebrew | `0.14.1` | ✅ latest |
+| Fedora rawhide | `0.14.1` | ✅ latest |
+| Nix unstable | `0.14.1` | ✅ latest |
+| Void | `0.14.1` | ✅ latest |
+| Alpine edge | `0.14.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.14.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `lnav` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -86,4 +105,4 @@ Install metadata for lnav lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:28:33Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:10:01Z._
