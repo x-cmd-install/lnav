@@ -1,3 +1,12 @@
+- repo: scoop
+  subrepo: main
+  binname: lnav
+  visiblename: lnav
+  version: 0.14.1
+  origversion: null
+  status: newest
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_17
   subrepo: community
   srcname: lnav
@@ -63,136 +72,133 @@
     - heiko.bernloehr@freeit.de
   licenses:
     - BSD-2-Clause
-- repo: debian_14
-  subrepo: forky/main
+- repo: alpine_3_19
+  subrepo: community
   srcname: lnav
-  binnames:
-    - lnav
+  binname: lnav-doc
+  visiblename: lnav-doc
+  version: 0.11.2
+  origversion: 0.11.2-r0
+  status: outdated
+  summary: advanced log file navigator and viewer (documentation)
+  maintainers:
+    - heiko.bernloehr@freeit.de
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: lnav
+  binname: lnav
+  visiblename: lnav
+  version: 0.12.2
+  origversion: 0.12.2-r0
+  status: outdated
+  summary: advanced log file navigator and viewer
+  maintainers:
+    - heiko.bernloehr@freeit.de
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: lnav
+  binname: lnav-doc
+  visiblename: lnav-doc
+  version: 0.12.2
+  origversion: 0.12.2-r0
+  status: outdated
+  summary: advanced log file navigator and viewer (documentation)
+  maintainers:
+    - heiko.bernloehr@freeit.de
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: lnav
+  binname: lnav
+  visiblename: lnav
+  version: 0.12.2
+  origversion: 0.12.2-r0
+  status: outdated
+  summary: advanced log file navigator and viewer
+  maintainers:
+    - heiko.bernloehr@freeit.de
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: lnav
+  binname: lnav-doc
+  visiblename: lnav-doc
+  version: 0.12.2
+  origversion: 0.12.2-r0
+  status: outdated
+  summary: advanced log file navigator and viewer (documentation)
+  maintainers:
+    - heiko.bernloehr@freeit.de
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: lnav
+  binname: lnav
+  visiblename: lnav
+  version: 0.12.2
+  origversion: 0.12.2-r2
+  status: outdated
+  summary: Advanced log file navigator and viewer
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: lnav
+  binname: lnav-doc
+  visiblename: lnav-doc
+  version: 0.12.2
+  origversion: 0.12.2-r2
+  status: outdated
+  summary: Advanced log file navigator and viewer (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: lnav
+  binname: lnav
   visiblename: lnav
   version: 0.13.2
-  origversion: 0.13.2-2
+  origversion: 0.13.2-r0
+  status: outdated
+  summary: Advanced log file navigator and viewer
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: lnav
+  binname: lnav-doc
+  visiblename: lnav-doc
+  version: 0.13.2
+  origversion: 0.13.2-r0
+  status: outdated
+  summary: Advanced log file navigator and viewer (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: slackbuilds
+  srcname: system/lnav
+  visiblename: system/lnav
+  version: 0.12.0
+  origversion: null
   status: outdated
   maintainers:
-    - carnil@debian.org
+    - kuban.ma@gmail.com
   categories:
-    - misc
-- repo: alpine_3_19
-  subrepo: community
-  srcname: lnav
-  binname: lnav-doc
-  visiblename: lnav-doc
-  version: 0.11.2
-  origversion: 0.11.2-r0
-  status: outdated
-  summary: advanced log file navigator and viewer (documentation)
-  maintainers:
-    - heiko.bernloehr@freeit.de
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: lnav
-  binname: lnav
-  visiblename: lnav
-  version: 0.12.2
-  origversion: 0.12.2-r0
-  status: outdated
-  summary: advanced log file navigator and viewer
-  maintainers:
-    - heiko.bernloehr@freeit.de
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: lnav
-  binname: lnav-doc
-  visiblename: lnav-doc
-  version: 0.12.2
-  origversion: 0.12.2-r0
-  status: outdated
-  summary: advanced log file navigator and viewer (documentation)
-  maintainers:
-    - heiko.bernloehr@freeit.de
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: lnav
-  binname: lnav
-  visiblename: lnav
-  version: 0.12.2
-  origversion: 0.12.2-r0
-  status: outdated
-  summary: advanced log file navigator and viewer
-  maintainers:
-    - heiko.bernloehr@freeit.de
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: lnav
-  binname: lnav-doc
-  visiblename: lnav-doc
-  version: 0.12.2
-  origversion: 0.12.2-r0
-  status: outdated
-  summary: advanced log file navigator and viewer (documentation)
-  maintainers:
-    - heiko.bernloehr@freeit.de
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: lnav
-  binname: lnav
-  visiblename: lnav
-  version: 0.12.2
-  origversion: 0.12.2-r2
-  status: outdated
-  summary: Advanced log file navigator and viewer
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: lnav
-  binname: lnav-doc
-  visiblename: lnav-doc
-  version: 0.12.2
-  origversion: 0.12.2-r2
-  status: outdated
-  summary: Advanced log file navigator and viewer (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: lnav
-  binname: lnav
-  visiblename: lnav
-  version: 0.13.2
-  origversion: 0.13.2-r0
-  status: outdated
-  summary: Advanced log file navigator and viewer
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: lnav
-  binname: lnav-doc
-  visiblename: lnav-doc
-  version: 0.13.2
-  origversion: 0.13.2-r0
-  status: outdated
-  summary: Advanced log file navigator and viewer (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-2-Clause
+    - system
 - repo: alpine_3_24
   subrepo: community
   srcname: lnav
@@ -368,6 +374,19 @@
   visiblename: lnav
   version: 0.12.4
   origversion: 0.12.4-1+deb13u1
+  status: outdated
+  maintainers:
+    - carnil@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: lnav
+  binnames:
+    - lnav
+  visiblename: lnav
+  version: 0.13.2
+  origversion: 0.13.2-2
   status: outdated
   maintainers:
     - carnil@debian.org
@@ -1064,19 +1083,6 @@
   version: 0.14.0
   origversion: 0.14.0-1
   status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: lnav
-  binnames:
-    - lnav
-  visiblename: lnav
-  version: 0.8.4
-  origversion: 0.8.4-5
-  status: outdated
-  maintainers:
-    - carnil@debian.org
-  categories:
-    - admin
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: lnav
@@ -1176,25 +1182,6 @@
     - BSD
   categories:
     - File tools
-- repo: scoop
-  subrepo: main
-  binname: lnav
-  visiblename: lnav
-  version: 0.14.1
-  origversion: null
-  status: newest
-  licenses:
-    - BSD-2-Clause
-- repo: slackbuilds
-  srcname: system/lnav
-  visiblename: system/lnav
-  version: 0.12.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - kuban.ma@gmail.com
-  categories:
-    - system
 - repo: termux
   srcname: lnav
   binname: lnav
